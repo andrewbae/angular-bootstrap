@@ -1,3 +1,5 @@
-<p>
-  view-child works!
-</p>
+<pane id="1" *ngIf="shouldShow"></pane>
+<pane id="2" *ngIf="!shouldShow"></pane>
+
+<button (click)="toggle()">Toggle</button>
+<div>Selected: {{selectedPane}}</div>

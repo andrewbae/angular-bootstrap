@@ -8,14 +8,16 @@ import { AppRoutingModule, appRoutingProviders } from "./app.routing";
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { ViewChildComponent } from './view-child/view-child.component';
+import { HomeComponent } from './home/home.component';
+import { ViewChildComponent, Pane } from './view-child/view-child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ViewChildComponent
+    HomeComponent,
+    ViewChildComponent, Pane
   ],
   imports: [
     BrowserModule,

@@ -2,12 +2,15 @@
   <div class="block">
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
-          <a routerLink="/">LOGO</a>
+        <div class="col-xs-2">
+          <a class="logo"><i class="fa fa-eercast" aria-hidden="true"></i> LOGO</a>
         </div>
-        <div class="col-sm-9">
+        <div class="col-xs-10">
           <nav>
-            <a routerLink="/view-child">view-child</a>
+            <ul class="list-inline">
+              <li><a routerLink="/" routerLinkActive="active">home</a></li>
+              <li><a routerLink="/view-child" routerLinkActive="active">view-child</a></li>
+            </ul>
           </nav>
         </div>
       </div>
